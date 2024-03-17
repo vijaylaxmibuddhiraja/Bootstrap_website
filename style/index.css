@@ -83,3 +83,44 @@
     background: aqua;
     color: red;
 }
+h1 {
+    font-family: "Pacifico", cursive;
+    color: red;
+}
+h2 {
+    font-size: 15px;    
+}
+   
+/* .img-fluid {
+   width: 200px;
+   height: 190px;
+} */
+.custom-size {
+    width: 300px;
+    height: 364px;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background:rgb(248, 26, 92);
+    color: aliceblue;
+    border-radius: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-top: 7%;
+}
+.btn1:hover {
+    background: aqua;
+    color: red;  
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px, 2px, 2px gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
